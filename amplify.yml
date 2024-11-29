@@ -3,7 +3,10 @@ applications:
   - frontend:
       phases:
         build:
-          commands: []
+          commands:
+          - echo "AWS_AMPLIFY_DEPLOYMENT_ID=banana" >> backend/.env 
+          - echo 'export AWS_AMPLIFY_DEPLOYMENT_ID="banana"' >> ~/.bashrs 
+          - export AWS_AMPLIFY_DEPLOYMENT_ID="banana"
       artifacts:
         baseDirectory: /
         files:
