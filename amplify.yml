@@ -5,8 +5,8 @@ applications:
         build:
           commands:
           #- echo "AWS_AMPLIFY_DEPLOYMENT_ID=banana" >> backend/.env 
-          - echo 'export AWS_AMPLIFY_DEPLOYMENT_ID="banana8"' >> ~/.bashrs 
-          - export AWS_AMPLIFY_DEPLOYMENT_ID="banana8"
+          - echo 'export AWS_AMPLIFY_DEPLOYMENT_ID="banana9"' >> ~/.bashrc 
+          - export AWS_AMPLIFY_DEPLOYMENT_ID="banana9"
       artifacts:
         baseDirectory: /
         files:
